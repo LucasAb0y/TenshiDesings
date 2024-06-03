@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:"fuente" ;
+    src: url(../font/ClashDisplay-Variable.ttf)}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+}
+
+body{
+  background-color: rgb(31, 31, 31);
+}
+.log{
+    width: 150px;
+    padding-bottom: 20px;
+    transition: all 0.5;
+    padding-left: 20px;
+    transform: translate(0, 2px);
+    transition: .5s ease;
+}
+.log:hover{
+  transform: scale(1.03);}
+
+/* barra de nav */
+nav{
+color: rgb(255, 255, 255);;
+display: flex;
+padding-top: 20px;
+font-weight: bold;
+font-family:"fuente" ;
+src: url(../font/ClashDisplay-Variable.ttf);
+position: sticky;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+nav ul li a{
+ color: white;
+ text-decoration: none;
+ font-family:"fuente" ;
+ src: url(../font/ClashDisplay-Variable.ttf);
+ transition: all 0, 5;
+
+}
+
+a:hover{
+  color: rgb(92, 91, 91);
+}
+
+
+
+
+
+
+/* cards de la pagina */
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px ;
+}
+
+.card{
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px black;
+  margin: 30px;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+  background-color: #646363;
+  border-radius: 8px;
+}
+
+.card .view2{
+margin-top: -580px;
+margin-bottom: 90px;
+opacity: 0;
+}
+
+.card .imgs .view3{
+    margin-top: -700px;
+    margin-bottom: 110px;
+    opacity: 1;
+    }
+
+.card .view2:hover{
+  opacity: 1;
+  transition: .3s;
+}
+
+
+
+
+.card-content h2 {
+  font-size: 28px;
+  margin-top: -80px;
+  margin-bottom: 9px;
+  text-align: center;
+  font-family: "fuente";
+    src: url(../font/ClashDisplay-Variable.ttf);
+}
+
+.card-content p{
+  color: #353434;
+  font-size: 15px;
+  line-height: 1.3;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+  
+
+.card-content .btn{
+  display:inline-block;
+  padding:  8px 16px;
+  text-align: center;
+  background-color: #333;
+  transition: all 0, 5;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 16px;
+  color: #fff;
+  font-family: "fuente";
+  font-weight: bold;
+  src: url(../font/ClashDisplay-Variable.ttf);
+}
+
+
+
+
+
+/* footer de la pagina */
+footer {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    font-family: "fuente";
+    src: url(../font/ClashDisplay-Variable.ttf);
+  }
+  footer .grupo-1 {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 700px;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-decoration: none;
+  }
+  footer .grupo-1 .box h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "fuente";
+    src: url(../font/ClashDisplay-Variable.ttf);
+  }
+  footer .grupo-1 .box a {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: "fuente";
+    src: url(../font/ClashDisplay-Variable.ttf);
+  }
+
+.red-social img{
+  width: 30px;
+  padding-left:10px;
+}
+
+  footer .red-social a {
+    text-decoration: none;;
+    transition: all 0, 5;
+  }
+
+  footer .red-social a:hover {
+    scale: 1.3; }
+    
+  footer .grupo-2 {
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #141414;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+  }
